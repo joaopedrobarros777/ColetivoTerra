@@ -4,6 +4,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/img/bg.jpg");
+  background-size: auto;
 }
 
 /* Float four columns side by side */
@@ -41,5 +43,5 @@ body {
 }
 
 .card img {
-  width: 100%;
+ width: 100%;
 }
