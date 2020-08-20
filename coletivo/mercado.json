@@ -1,40 +1,110 @@
 {
-    "Produtos": [
-        {
-            "id": 1,
-            "nome": "Alface",
-            "preco": 2.50,
-            "foto": "img/alface.jpg"
-        },
-        {
-            "id": 2,
-            "nome": "Banana",
-            "preco": 5.30,
-            "foto": "img/bananas.jpg"
-        },
-        {
-            "id": 3,
-            "nome": "Cenoura",
-            "preco": 4.80,
-            "foto":"img/cenoura.jpg"
-        },
-        {
-            "id": 4,
-            "nome": "Melancia",
-            "preco": 5.80,
-            "foto": "img/melancia.jpg"
-        },
-        {
-            "id": 5,
-            "nome": "Pimenta",
-            "preco": 3.20,
-            "foto": "img/pimenta.jpg"
-        },
-        {
-            "id": 6,
-            "nome": "Tomate",
-            "preco": 6.40,
-            "foto":"img/tomate.jpg"
-        }
-    ]
+  "Produtos": [
+    {
+      "id": 1,
+      "nome": "Alface",
+      "preco": 2.5,
+      "foto": "img/alface.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Banana",
+      "preco": 5.3,
+      "foto": "img/bananas.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Cenoura",
+      "preco": 4.8,
+      "foto": "img/cenoura.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Melancia",
+      "preco": 5.8,
+      "foto": "img/melancia.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Pimenta",
+      "preco": 3.2,
+      "foto": "img/pimenta.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Tomate",
+      "preco": 6.4,
+      "foto": "img/tomate.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Ovo",
+      "preco": 3.4,
+      "foto": "img/ovo.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Pera",
+      "preco": 2.4,
+      "foto": "img/pera.jpg"
+    },
+    {
+      "id": 9,
+      "nome": "maca",
+      "preco": 1.4,
+      "foto": "img/maca.jpg"
+    },
+    {
+      "id": 10,
+      "nome": "Farinha-Bambu",
+      "preco": 10.2,
+      "foto": "img/farinha-bambu.png"
+    },
+    {
+      "id": 11,
+      "nome": "Uva",
+      "preco": 5.7,
+      "foto": "img/uva.jpg"
+    },
+    {
+      "id": 12,
+      "nome": "Batata",
+      "preco": 5.5,
+      "foto": "img/batata.jpg"
+    },
+    {
+      "id": 13,
+      "nome": "Cafe",
+      "preco": 15.1,
+      "foto": "img/cafe.jpg"
+    },
+    {
+      "id": 14,
+      "nome": "Arroz",
+      "preco": 6.9,
+      "foto": "img/arroz.png"
+    },
+    {
+      "id": 15,
+      "nome": "Morango",
+      "preco": 7.6,
+      "foto": "img/morango.jpg"
+    },
+    {
+      "id": 16,
+      "nome": "Caju",
+      "preco": 7.1,
+      "foto": "img/caju.jpg"
+    }
+  ],
+  "carrinho": [
+    {
+      "id": 1,
+      "nome": "Alface",
+      "preco": 2.5,
+      "foto": "img/alface.jpg",
+      "quantidade": 2,
+      "total": 5
+    }
+  ]
 }
