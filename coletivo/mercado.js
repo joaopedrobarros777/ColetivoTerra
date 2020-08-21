@@ -41,10 +41,27 @@ function adicionarNoCarrinho(produto, quantidade) {
     carrinho.innerHTML += `<tr>
     <td><div class="iconeProduto" style=" background-image: url(${produto.foto})" alt="${produto.nome}"></div></td>
     <td>${produto.nome}</td>
-    <td>${produto.quantidade}</td>
+    <td>${quantidade}</td>
     <td>${produto.preco}</td>
-    <td>${produto.total}</td>              
+    <td>${quantidade * produto.preco}</td>              
   </tr>`
+  calculaValorTotal()
   })
   
+}
+
+function calculaValorTotal() {
+  axios.get("http://localhost:3000/carrinho")
+  .then(res => {
+    let produtosCarrinho = res.data
+    let totais = produtosCarrinho.map(produto => {
+      return produto.total
+    })
+    let total = totais.reduce((total, valor) => {
+      return valor + total 
+    })
+    let totalEL = document.getElementById("total")
+    totalEL.textContent = total.toLocaleString("pt-br", {style: "currency", currency:"BRL"})
+    console.log(total)
+  })
 }

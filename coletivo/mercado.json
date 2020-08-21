@@ -105,6 +105,14 @@
       "foto": "img/alface.jpg",
       "quantidade": 2,
       "total": 5
+    },
+    {
+      "id": 3,
+      "nome": "Cenoura",
+      "preco": 4.8,
+      "foto": "img/cenoura.jpg",
+      "quantidade": 3,
+      "total": 14.399999999999999
     }
   ]
 }

@@ -25,10 +25,10 @@
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 
-<body>
+<body class="d-flex flex-column h-100">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Coletivo Terra</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,7 +36,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Mercado <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
@@ -58,7 +58,7 @@
         </button>
       </div>
     </nav>
-    <div class='container'>
+    <div class='container flex-shrink-0'>
     <!-- Cards  -->
     <br></br>
     <!-- Primeiro -->
@@ -98,14 +98,25 @@
         </table>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary">Finalizar compra</button>
+        <div class="mr-auto">
+         <h5 id="total" >R$ 0.00</h5> 
+        </div>
+        <div>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Finalizar compra</button>
+        </div>
+              
       </div>
     </div>
   </div>
 </div>
   <!-- /modal -->
 
+  <footer class="footer fixed-bottom p-2 mt-auto bg-light">
+    <div class="container">
+      <p class="m-0"> Footer </p>
+    </div>
+  </footer>
 </body>
 
 </html>
